@@ -331,7 +331,8 @@
 	  "DESC": "Nombre de verrouillages de table datant de plus de 24 heures",
 	  "VALUE": "5 ",
 	  "THRESHOLD": "5 ",
-	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000",
+	  "Status": "A"
 	},
 
 
@@ -342,7 +343,8 @@
 	  "DESC": "Nombre de mises � jour en erreur",
 	  "VALUE": "0 ",
 	  "THRESHOLD": "5 ",
-	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000",
+	  "Status": "B"
 	},
 
 
@@ -353,7 +355,8 @@
 	  "DESC": "Nombre de jobs interrompus",
 	  "VALUE": "4 ",
 	  "THRESHOLD": "5 ",
-	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000",
+	  "Status": "C"
 	},
 
 

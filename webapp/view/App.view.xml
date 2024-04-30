@@ -4,13 +4,13 @@
     <Shell>
         <App class="myAppDemoWT">
             <pages>
-                <Page title="{i18n>homePageTitle}">
+                <Page title="{i18n>homePageTitle}" class="sapUiContentPadding sapUiNoContentPadding">
                 <headerContent>
                     <Button
                         icon="sap-icon://hello-world"
                         press=".onOpenDialog"/>
                 </headerContent>
-                    <content>
+                    <content justifyContent="Center" alignItems="Center" width="50%" class="centeredContainer">
                         <mvc:XMLView
                             viewName="sap.ui.demo.walkthrough.view.HelloPanel"/>
                         <mvc:XMLView
