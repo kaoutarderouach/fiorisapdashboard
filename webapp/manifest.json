@@ -1,105 +1,119 @@
 {
-	"_version": "1.59.0",
-	"sap.app": {
-	  "id": "dashboardfiorisap",
-	  "type": "application",
-	  "i18n": "i18n/i18n.properties",
-	  "applicationVersion": {
-		"version": "0.0.1"
-	  },
-	  "title": "{{appTitle}}",
-	  "description": "{{appDescription}}",
-	  "resources": "resources.json",
-	  "sourceTemplate": {
-		"id": "@sap/generator-fiori:basic",
-		"version": "1.13.3",
-		"toolsId": "ed3e9262-185d-4f25-a2ee-6ec43ad29c7c"
-	  }
-	},
-	"sap.ui": {
-	  "technology": "UI5",
-	  "icons": {
-		"icon": "",
-		"favIcon": "",
-		"phone": "",
-		"phone@2": "",
-		"tablet": "",
-		"tablet@2": ""
-	  },
-	  "deviceTypes": {
-		"desktop": true,
-		"tablet": true,
-		"phone": true
-	  }
-	},
-	"sap.ui5": {
-	  "flexEnabled": true,
-	  "dependencies": {
-		"minUI5Version": "1.123.1",
-		"libs": {
-		  "sap.m": {},
-		  "sap.ui.core": {},
-		  "sap.f": {},
-		  "sap.suite.ui.generic.template": {},
-		  "sap.ui.comp": {},
-		  "sap.ui.generic.app": {},
-		  "sap.ui.table": {},
-		  "sap.ushell": {}
-		}
-	  },
-	  "contentDensities": {
-		"compact": true,
-		"cozy": true
-	  },
-	  "models": {
-		"i18n": {
-		  "type": "sap.ui.model.resource.ResourceModel",
-		  "settings": {
-			"bundleName": "dashboardfiorisap.i18n.i18n"
-		  }
-		}
-	  },
-	  "resources": {
-		"css": [
-		  {
-			"uri": "css/style.css"
-		  }
-		]
-	  },
-	  "routing": {
-		"config": {
-		  "routerClass": "sap.m.routing.Router",
-		  "viewType": "XML",
-		  "async": true,
-		  "viewPath": "dashboardfiorisap.view",
-		  "controlAggregation": "pages",
-		  "controlId": "app",
-		  "clearControlAggregation": false
-		},
-		"routes": [
-		  {
-			"name": "RouteDashboard",
-			"pattern": ":?query:",
-			"target": [
-			  "TargetDashboard"
-			]
-		  }
-		],
-		"targets": {
-		  "TargetDashboard": {
-			"viewType": "XML",
-			"transition": "slide",
-			"clearControlAggregation": false,
-			"viewId": "Dashboard",
-			"viewName": "Dashboard"
-		  }
-		}
-	  },
-	  "rootView": {
-		"viewName": "dashboardfiorisap.view.App",
-		"type": "XML",
-		"async": true,
-		"id": "App"
-	  }
-	}
-  }
+    "_version": "1.1.0",
+
+	"start_url": "<startUrl>",
+
+    "sap.app": {
+        "_version": "1.1.0",
+        "id": "sap.ui.demo.walkthrough",
+        "type": "application",
+        "i18n": "i18n/i18n.properties",
+        "applicationVersion": {
+            "version": "1.0.0"
+        },
+        "title": "{{appTitle}}",
+        "description": "{{appDescription}}",
+        "tags": {
+            "keywords": [
+                "{{<keyword1>}}", "{{<keyword2>}}"
+            ]
+        },
+        "dataSources": {
+            "<dataSourceAlias>": {
+                "uri": "<uri>",
+                "settings": {
+                    "localUri": "<localUri>"
+                }
+            }
+        }
+    },
+    "sap.ui": {
+        "_version": "1.1.0",
+        "icons": {
+            "icon": "<icon>",
+            "favIcon": "<favIcon>",
+            "phone": "<phone>",
+            "phone@2": "<phone@2>",
+            "tablet": "<tablet>",
+            "tablet@2": "<tablet@2>"
+        },
+        "deviceTypes": {
+            "desktop": true,
+            "tablet": true,
+            "phone": true
+        },
+        "supportedThemes": [
+            "sap_hcb",
+            "sap_bluecrystal"
+        ]
+    },
+    "sap.ui5": {
+        "_version": "1.1.0",
+        "resources": {
+            "js": [
+                {
+                    "uri": "<uri>"
+                }
+            ],
+            "css": [
+                {
+                    "uri": "<uri>",
+                    "id": "<id>"
+                }
+            ]
+        },
+        "dependencies": {
+            "minUI5Version": "1.23.1",
+            "libs": {
+                "sap.m": {}
+            }
+
+        },
+        "models": {
+            "i18n": {
+                "type": "sap.ui.model.resource.ResourceModel",
+                "settings": {
+                    "bundleName": "sap.ui.demo.walkthrough.i18n.i18n",
+                    "suppoertedLocales": [""],
+                    "fallbackLocale": ""
+                },
+                "uri": "<uriRelativeToManifest>"
+            },
+            "": {
+                "dataSource": "<dataSourceAlias>",
+                "settings": {}
+            }
+        },
+        "rootView": {
+            "viewName": "sap.ui.demo.walkthrough.view.App",
+            "type": "XML",
+            "async": true,
+            "id": "app"
+        },
+        "handleValidation": false,
+        "config": {
+
+        },
+        "routing": {
+
+        },
+        "extends": {
+            "component" : "<extendedComponentId>",
+			"minVersion": "<minComp1Version>",
+			"extensions": {}
+        },
+        "contentDensities": {
+            "compact": false,
+            "cozy": false
+        }
+    },
+
+    "sap.platform.abap": {
+        "_version": "1.1.0",
+        "uri": "<uri>"
+    },
+    "sap.platform.hcp": {
+        "_version": "1.1.0",
+        "uri": "<uri>"
+    }
+}
