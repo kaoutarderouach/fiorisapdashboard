@@ -1,0 +1,562 @@
+{
+	"Invoices":[
+	{
+	  "SID": "EP1",
+	  "LEVEL": "OK",
+	  "TCODE": "SM51",
+	  "DESC": "Nombre de serveurs actifs",
+	  "VALUE": "2 ",
+	  "THRESHOLD": "0 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "EP1",
+	  "LEVEL": "",
+	  "TCODE": "",
+	  "DESC": "Liste des serveurs actifs",
+	  "VALUE": "SEXTGLXPAP01_EP1_00\r\nSEXTGLXPAP02_EP1_10                     ",
+	  "THRESHOLD": "",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "EP1",
+	  "LEVEL": "OK",
+	  "TCODE": "SM66",
+	  "DESC": "Nombre de processus en erreur",
+	  "VALUE": "4 ",
+	  "THRESHOLD": "5 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "EP1",
+	  "LEVEL": "Warning",
+	  "TCODE": "ST22",
+	  "DESC": "Nombre de vidages de m�moire",
+	  "VALUE": "11 ",
+	  "THRESHOLD": "10 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "EP1",
+	  "LEVEL": "Critical",
+	  "TCODE": "SM12",
+	  "DESC": "Nombre de verrouillages de table datant de plus de 24 heures",
+	  "VALUE": "35 ",
+	  "THRESHOLD": "10 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "EP1",
+	  "LEVEL": "OK",
+	  "TCODE": "SM13",
+	  "DESC": "Nombre de mises � jour en erreur",
+	  "VALUE": "0 ",
+	  "THRESHOLD": "5 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "EP1",
+	  "LEVEL": "OK",
+	  "TCODE": "SM37",
+	  "DESC": "Nombre de jobs interrompus",
+	  "VALUE": "2 ",
+	  "THRESHOLD": "5 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "EP1",
+	  "LEVEL": "OK",
+	  "TCODE": "SM58",
+	  "DESC": "Nombre de RFC transctionnel en erreur",
+	  "VALUE": "0 ",
+	  "THRESHOLD": "5 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "EP1",
+	  "LEVEL": "OK",
+	  "TCODE": "SMQ1",
+	  "DESC": "Nombre des qRFC en erreur",
+	  "VALUE": "0 ",
+	  "THRESHOLD": "5 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "EP1",
+	  "LEVEL": "OK",
+	  "TCODE": "SOST",
+	  "DESC": "Nombre de message en statut Error",
+	  "VALUE": "0 ",
+	  "THRESHOLD": "5 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "EP1",
+	  "LEVEL": "OK",
+	  "TCODE": "SP01",
+	  "DESC": "Nombre d'ordre de spool en erreur",
+	  "VALUE": "0 ",
+	  "THRESHOLD": "5 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "EP1",
+	  "LEVEL": "OK",
+	  "TCODE": "WE02",
+	  "DESC": "Nombre Idocs statut <> (53); (03)",
+	  "VALUE": "2 ",
+	  "THRESHOLD": "5 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "EP1",
+	  "TCODE": "IDOCS in error",
+	  "DETAILS": "2024-01-16  03:03 - 0000000013796484 - SECUTIX   \r\n2024-01-16  03:03 - 0000000013796521 - VOYAGE    ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "EB1",
+	  "LEVEL": "OK",
+	  "TCODE": "SM51",
+	  "DESC": "Nombre de serveurs actifs",
+	  "VALUE": "1 ",
+	  "THRESHOLD": "0 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "EB1",
+	  "LEVEL": "",
+	  "TCODE": "",
+	  "DESC": "Liste des serveurs actifs",
+	  "VALUE": "SEXTGLXHAP02_EB1_00",
+	  "THRESHOLD": "",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "EB1",
+	  "LEVEL": "OK",
+	  "TCODE": "SM66",
+	  "DESC": "Nombre de processus en erreur",
+	  "VALUE": "0 ",
+	  "THRESHOLD": "5 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "EB1",
+	  "LEVEL": "OK",
+	  "TCODE": "ST22",
+	  "DESC": "Nombre de vidages de m�moire",
+	  "VALUE": "1 ",
+	  "THRESHOLD": "10 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "EB1",
+	  "LEVEL": "OK",
+	  "TCODE": "SM12",
+	  "DESC": "Nombre de verrouillages de table datant de plus de 24 heures",
+	  "VALUE": "2 ",
+	  "THRESHOLD": "5 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "EB1",
+	  "LEVEL": "OK",
+	  "TCODE": "SM13",
+	  "DESC": "Nombre de mises � jour en erreur",
+	  "VALUE": "0 ",
+	  "THRESHOLD": "5 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "EB1",
+	  "LEVEL": "OK",
+	  "TCODE": "SM37",
+	  "DESC": "Nombre de jobs interrompus",
+	  "VALUE": "1 ",
+	  "THRESHOLD": "5 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "EB1",
+	  "LEVEL": "OK",
+	  "TCODE": "SM58",
+	  "DESC": "Nombre de RFC transctionnel en erreur",
+	  "VALUE": "0 ",
+	  "THRESHOLD": "5 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "EB1",
+	  "LEVEL": "OK",
+	  "TCODE": "SMQ1",
+	  "DESC": "Nombre des qRFC en erreur",
+	  "VALUE": "0 ",
+	  "THRESHOLD": "5 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "EB1",
+	  "LEVEL": "OK",
+	  "TCODE": "SOST",
+	  "DESC": "Nombre de message en statut Error",
+	  "VALUE": "0 ",
+	  "THRESHOLD": "5 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "EB1",
+	  "LEVEL": "OK",
+	  "TCODE": "SP01",
+	  "DESC": "Nombre d'ordre de spool en erreur",
+	  "VALUE": "0 ",
+	  "THRESHOLD": "5 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "EB1",
+	  "LEVEL": "OK",
+	  "TCODE": "WE02",
+	  "DESC": "Nombre Idocs statut <> (53); (03)",
+	  "VALUE": "0 ",
+	  "THRESHOLD": "5 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "EB1",
+	  "TCODE": "SM37 Failed Jobs",
+	  "DETAILS": "2024-01-15  20:00 - EU_INIT                          - SPAUL       ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "ED1",
+	  "LEVEL": "OK",
+	  "TCODE": "SM51",
+	  "DESC": "Nombre de serveurs actifs",
+	  "VALUE": "1 ",
+	  "THRESHOLD": "0 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "ED1",
+	  "LEVEL": "",
+	  "TCODE": "",
+	  "DESC": "Liste des serveurs actifs",
+	  "VALUE": "SEXTGLXHAP01_ED1_00",
+	  "THRESHOLD": "",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "ED1",
+	  "LEVEL": "OK",
+	  "TCODE": "SM66",
+	  "DESC": "Nombre de processus en erreur",
+	  "VALUE": "0 ",
+	  "THRESHOLD": "5 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "ED1",
+	  "LEVEL": "OK",
+	  "TCODE": "ST22",
+	  "DESC": "Nombre de vidages de m�moire",
+	  "VALUE": "1 ",
+	  "THRESHOLD": "10 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "ED1",
+	  "LEVEL": "Warning",
+	  "TCODE": "SM12",
+	  "DESC": "Nombre de verrouillages de table datant de plus de 24 heures",
+	  "VALUE": "5 ",
+	  "THRESHOLD": "5 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "ED1",
+	  "LEVEL": "OK",
+	  "TCODE": "SM13",
+	  "DESC": "Nombre de mises � jour en erreur",
+	  "VALUE": "0 ",
+	  "THRESHOLD": "5 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "ED1",
+	  "LEVEL": "OK",
+	  "TCODE": "SM37",
+	  "DESC": "Nombre de jobs interrompus",
+	  "VALUE": "4 ",
+	  "THRESHOLD": "5 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "ED1",
+	  "LEVEL": "OK",
+	  "TCODE": "SM58",
+	  "DESC": "Nombre de RFC transctionnel en erreur",
+	  "VALUE": "0 ",
+	  "THRESHOLD": "5 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "ED1",
+	  "LEVEL": "OK",
+	  "TCODE": "SMQ1",
+	  "DESC": "Nombre des qRFC en erreur",
+	  "VALUE": "0 ",
+	  "THRESHOLD": "5 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "ED1",
+	  "LEVEL": "OK",
+	  "TCODE": "SOST",
+	  "DESC": "Nombre de message en statut Error",
+	  "VALUE": "0 ",
+	  "THRESHOLD": "5 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "ED1",
+	  "LEVEL": "OK",
+	  "TCODE": "SP01",
+	  "DESC": "Nombre d'ordre de spool en erreur",
+	  "VALUE": "0 ",
+	  "THRESHOLD": "5 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "ED1",
+	  "LEVEL": "OK",
+	  "TCODE": "WE02",
+	  "DESC": "Nombre Idocs statut <> (53); (03)",
+	  "VALUE": "0 ",
+	  "THRESHOLD": "5 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "ED1",
+	  "TCODE": "SM37 Failed Jobs",
+	  "DETAILS": "2024-01-15  23:00 - CTE_FIN_FEEDBACK_LOOP            - SAPSYS      \r\n2024-01-15  17:49 - ESH200IX_ED1200_1EA01335A9196C64 - SAPSYS      \r\n2024-01-15  17:50 - ESH200IX_ED1200_1EA01335A9196C64 - SAPSYS      \r\n2024-01-15  17:49 - ESH200IX_ED1200_DBCF7FCAE2FCCA21 - SAPSYS      ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "EQ1",
+	  "LEVEL": "OK",
+	  "TCODE": "SM51",
+	  "DESC": "Nombre de serveurs actifs",
+	  "VALUE": "1 ",
+	  "THRESHOLD": "0 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "EQ1",
+	  "LEVEL": "",
+	  "TCODE": "",
+	  "DESC": "Liste des serveurs actifs",
+	  "VALUE": "SEXTGLXHAP03_EQ1_00",
+	  "THRESHOLD": "",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "EQ1",
+	  "LEVEL": "OK",
+	  "TCODE": "SM66",
+	  "DESC": "Nombre de processus en erreur",
+	  "VALUE": "0 ",
+	  "THRESHOLD": "5 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "EQ1",
+	  "LEVEL": "OK",
+	  "TCODE": "ST22",
+	  "DESC": "Nombre de vidages de m�moire",
+	  "VALUE": "4 ",
+	  "THRESHOLD": "10 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "EQ1",
+	  "LEVEL": "Warning",
+	  "TCODE": "SM12",
+	  "DESC": "Nombre de verrouillages de table datant de plus de 24 heures",
+	  "VALUE": "5 ",
+	  "THRESHOLD": "5 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "EQ1",
+	  "LEVEL": "OK",
+	  "TCODE": "SM13",
+	  "DESC": "Nombre de mises � jour en erreur",
+	  "VALUE": "0 ",
+	  "THRESHOLD": "5 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "EQ1",
+	  "LEVEL": "OK",
+	  "TCODE": "SM37",
+	  "DESC": "Nombre de jobs interrompus",
+	  "VALUE": "2 ",
+	  "THRESHOLD": "5 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "EQ1",
+	  "LEVEL": "OK",
+	  "TCODE": "SM58",
+	  "DESC": "Nombre de RFC transctionnel en erreur",
+	  "VALUE": "0 ",
+	  "THRESHOLD": "5 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "EQ1",
+	  "LEVEL": "OK",
+	  "TCODE": "SMQ1",
+	  "DESC": "Nombre des qRFC en erreur",
+	  "VALUE": "0 ",
+	  "THRESHOLD": "5 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "EQ1",
+	  "LEVEL": "OK",
+	  "TCODE": "SOST",
+	  "DESC": "Nombre de message en statut Error",
+	  "VALUE": "1 ",
+	  "THRESHOLD": "5 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "EQ1",
+	  "LEVEL": "OK",
+	  "TCODE": "SP01",
+	  "DESC": "Nombre d'ordre de spool en erreur",
+	  "VALUE": "0 ",
+	  "THRESHOLD": "5 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "EQ1",
+	  "LEVEL": "Critical",
+	  "TCODE": "WE02",
+	  "DESC": "Nombre Idocs statut <> (53); (03)",
+	  "VALUE": "36 ",
+	  "THRESHOLD": "10 ",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	},
+
+
+	{
+	  "SID": "EQ1",
+	  "TCODE": "IDOCS in error",
+	  "DETAILS": "2024-01-15  10:10 - 0000000013102929 - EP1CLNT100\r\n2024-01-15  10:10 - 0000000013102930 - EP1CLNT100\r\n2024-01-15  11:11 - 0000000013103155 - EP1CLNT100\r\n2024-01-15  11:11 - 0000000013103156 - EP1CLNT100\r\n2024-01-15  11:11 - 0000000013103157 - EP1CLNT100\r\n2024-01-15  12:12 - 0000000013103161 - EP1CLNT100\r\n2024-01-15  13:13 - 0000000013103245 - EP1CLNT100\r\n2024-01-15  13:13 - 0000000013103246 - EP1CLNT100\r\n2024-01-15  13:13 - 0000000013103247 - EP1CLNT100\r\n2024-01-15  13:13 - 0000000013103250 - EP1CLNT100\r\n2024-01-15  13:13 - 0000000013103251 - EP1CLNT100\r\n2024-01-15  13:13 - 0000000013103253 - EP1CLNT100\r\n2024-01-15  13:13 - 0000000013103255 - EP1CLNT100\r\n2024-01-15  13:13 - 0000000013103257 - EP1CLNT100\r\n2024-01-15  13:13 - 0000000013103256 - EP1CLNT100\r\n2024-01-15  13:13 - 0000000013103260 - EP1CLNT100\r\n2024-01-15  13:13 - 0000000013103261 - EP1CLNT100\r\n2024-01-15  13:13 - 0000000013103263 - EP1CLNT100\r\n2024-01-15  13:13 - 0000000013103265 - EP1CLNT100\r\n2024-01-15  13:13 - 0000000013103266 - EP1CLNT100\r\n2024-01-15  13:13 - 0000000013103267 - EP1CLNT100\r\n2024-01-15  13:13 - 0000000013103270 - EP1CLNT100\r\n2024-01-15  13:13 - 0000000013103271 - EP1CLNT100\r\n2024-01-15  13:13 - 0000000013103273 - EP1CLNT100\r\n2024-01-15  13:13 - 0000000013103275 - EP1CLNT100\r\n2024-01-15  13:13 - 0000000013103276 - EP1CLNT100\r\n2024-01-15  15:15 - 0000000013103300 - EP1CLNT100\r\n2024-01-15  15:15 - 0000000013103301 - EP1CLNT100\r\n2024-01-15  15:15 - 0000000013103302 - EP1CLNT100\r\n2024-01-15  15:15 - 0000000013103303 - EP1CLNT100\r\n2024-01-15  15:15 - 0000000013103304 - EP1CLNT100\r\n2024-01-15  16:16 - 0000000013103390 - ALL       \r\n2024-01-15  16:16 - 0000000013103391 - ALL       \r\n2024-01-15  17:17 - 0000000013103400 - EP1CLNT100\r\n2024-01-15  17:17 - 0000000013103402 - EP1CLNT100\r\n2024-01-16  03:03 - 0000000013103445 - EP1CLNT100",
+	  "TIMESTAMP": "2024-01-16T08:00:00.000000"
+	}
+  ]
+}
