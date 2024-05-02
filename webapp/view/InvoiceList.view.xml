@@ -7,7 +7,13 @@ xmlns:mvc="sap.ui.core.mvc">
         headerText="{i18n>invoiceListTitle}"
         class="saUiResponsiveMargin"
         width="auto"
-        items="{invoice>/Invoices}">
+        items="{
+            path: 'invoice>/Invoices',
+            sorter: {
+                path: 'LEVEL',
+                group: true
+                }
+            }">
         <headerToolbar>
             <Toolbar>
             <Title text="{i18n>invoiceListTitle}"/>
@@ -17,16 +23,18 @@ xmlns:mvc="sap.ui.core.mvc">
         </headerToolbar>
         <items>
             <ObjectListItem
-                title="{invoice>SID} x {invoice>TCODE}"
+                title="{invoice>SID} x {invoice>LEVEL}"
                 number="{
-                    parts: [{path: 'invoice>LEVEL'}, {path: 'view>/currency'}],
+                    parts: [{path: 'invoice>VALUE'}, {path: 'view>/currency'}],
                     type: 'sap.ui.model.type.Currency',
                     formatOptions: {
                         showMeasure: false
                     }
                 }"
                 numberUnit="{view>/currency}"
-                numberState="{= ${invoice>VALUE} > 2 ? 'Error' : 'Success'}">
+                numberState="{= ${invoice>VALUE} > 2 ? 'Error' : 'Success'}"
+                type="Navigation"
+                press="onPress">
                 <firstStatus>
                     <ObjectStatus text="{
                         path: 'invoice>LEVEL',
