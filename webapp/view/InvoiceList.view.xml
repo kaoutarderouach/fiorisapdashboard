@@ -3,10 +3,18 @@ controllerName="sap.ui.demo.walkthrough.controller.InvoiceList"
 xmlns="sap.m"
 xmlns:mvc="sap.ui.core.mvc">
     <List
+        id="invoiceList"
         headerText="{i18n>invoiceListTitle}"
         class="saUiResponsiveMargin"
         width="auto"
         items="{invoice>/Invoices}">
+        <headerToolbar>
+            <Toolbar>
+            <Title text="{i18n>invoiceListTitle}"/>
+            <ToolbarSpacer/>
+            <SearchField width="50%" search=".onFilterInvoices"/>
+            </Toolbar>
+        </headerToolbar>
         <items>
             <ObjectListItem
                 title="{invoice>SID} x {invoice>TCODE}"
@@ -18,7 +26,7 @@ xmlns:mvc="sap.ui.core.mvc">
                     }
                 }"
                 numberUnit="{view>/currency}"
-                numberState="{= ${invoice>VALUE} > 3 ? 'Error' : 'Success'}">
+                numberState="{= ${invoice>VALUE} > 2 ? 'Error' : 'Success'}">
                 <firstStatus>
                     <ObjectStatus text="{
                         path: 'invoice>LEVEL',
